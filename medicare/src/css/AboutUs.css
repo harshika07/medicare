@@ -1,0 +1,78 @@
+.about-us {
+  color: #5e5b5b;
+  font-family: Roboto;
+  font: 18px;
+}
+.outro {
+  color: #0b0957;
+  text-align: center;
+  margin: 78px;
+  font-size: 28px;
+}
+
+.highlight-blue {
+  color: #fff;
+  background-color: #1e6add;
+  padding: 50px 0;
+}
+
+.highlight-blue p {
+  color: #fff;
+  line-height: 1.5;
+  font-weight: bold;
+  background-color: #0c09572f;
+}
+
+.highlight-blue h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  background-color: #0c09572f;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
+
+.highlight-blue .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background-color: #0b0957;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity: 0.9;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-blue .buttons .btn-primary,
+.highlight-blue .buttons .btn-primary:active {
+  border-radius: 6px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 14px 24px;
+  background: #0b0957;
+  transition: background-color 0.25s;
+}

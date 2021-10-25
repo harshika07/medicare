@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .head-image {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .head-image {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}

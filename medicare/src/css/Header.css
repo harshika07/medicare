@@ -1,0 +1,25 @@
+.navbar {
+  background: #0b0957;
+}
+
+.nav-item .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+.nav-item {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #e5e5e5 !important;
+}
+.nav-item:hover {
+  color: #e5e5e5 !important;
+}
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 250px;
+}
