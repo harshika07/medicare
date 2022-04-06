@@ -1,10 +1,10 @@
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import AppointmentHome from "./Components/AppointmentHome";
 import AppointHomeForm from "./Components/AppointHomeForm";
 import AppointmentCentre from "./Components/AppointmentCentre";
 import AppointCentreForm from "./Components/AppointmentCentreForm";
-import Faq from "./Components/Faq";
 import AboutUs from "./Components/AboutUs";
 import Register from "./Components/Register";
 import Login from "./Components/Login";
@@ -39,7 +39,6 @@ function App() {
   let Appointment_Centre_Form = "/AppointCentreForm";
   let About_Us = "/AboutUs";
   let Get_Report = "/GetReport";
-  let FAQ = "/Faq";
   let Register_User = "/Register";
   let Login_User = "/Login";
   let Profilepage = "/ProfilePage";
@@ -172,9 +171,6 @@ function App() {
             <Route exact path={About_Us}>
               <AboutUs />
             </Route>
-            <Route exact path={FAQ}>
-              <Faq />
-            </Route>
             <Route exact path={Register_User}>
               <Register />
             </Route>
@@ -232,6 +228,7 @@ function App() {
             </PrivateRoute>
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </AuthProvider>
       </Router>
     </div>

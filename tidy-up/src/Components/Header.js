@@ -9,12 +9,11 @@ function Header() {
   let Homepage = "/";
   let Book_Appointment_Home = "/AppointmentHome";
   let Get_Report = "/GetReport";
-  let FAQ = "/Faq";
   let About_Us = "/AboutUs";
   let Login_User = "/Login";
   let Profilepage = "/ProfilePage";
   let Admin_Page = "/Admin";
-  const { currentUser , getRole } = useAuth();
+  const { currentUser, getRole } = useAuth();
   const newRole = getRole();
   console.log("here inside header role is " + newRole);
   console.log(currentUser);
@@ -37,9 +36,6 @@ function Header() {
               </Link>
               <Link className="nav-item nav-link" to={Get_Report}>
                 Get Report
-              </Link>
-              <Link className="nav-item nav-link" to={FAQ}>
-                FAQ
               </Link>
               <Link className="nav-item nav-link" to={About_Us}>
                 About Us
